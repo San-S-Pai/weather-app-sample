@@ -1,0 +1,23 @@
+{
+  "name": "weather-app-sample",
+  "version": "1.0.0",
+  "description": "Weather App sample",
+  "homepage": "https://github.com/San-S-Pai/weather-app-sample#readme",
+  "bugs": {
+    "url": "https://github.com/San-S-Pai/weather-app-sample/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/San-S-Pai/weather-app-sample.git"
+  },
+  "license": "Apache-2.0",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
