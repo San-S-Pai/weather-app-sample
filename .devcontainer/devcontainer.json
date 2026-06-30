@@ -1,0 +1,14 @@
+{
+  "name": "Weather-App",
+  "build": {
+    "dockerfile": "./Dockerfile",
+    "args": {
+      "VARIANT": "24"
+    }
+  },
+  "runArgs": [
+    "--env-file",
+    ".devcontainer/devcontainer.env",
+    "--add-host=host.docker.internal:host-gateway"
+  ]
+}
